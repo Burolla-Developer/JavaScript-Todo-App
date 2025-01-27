@@ -51,8 +51,6 @@ function myTasks(){
              li.appendChild(completeBtn);
             storeData();
 
-
-
             //adding EventListener to complete Button
             completeBtn.addEventListener('click',function(){
                li.remove();
@@ -94,22 +92,13 @@ function myTasks(){
                        storeData();
                 })
                     
-                
-               
-    
-              })
+          })
           
 
           storeData();
 
      }
-
- 
-//   storeData()
   
-
-
-
 
    function storeData(){
       let tasks = [];
@@ -136,8 +125,3 @@ function myTasks(){
     } 
 
  
-
-
-
-
-// const InputTask = document.getElementById…
